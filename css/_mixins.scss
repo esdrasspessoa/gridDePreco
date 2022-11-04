@@ -1,0 +1,17 @@
+@import 'variables';
+
+
+@mixin box($boxs) {
+    @if $boxs == box1 {
+        background-color: $--colorTertiary;
+        border-radius: 10px 10px 0 0;
+    } 
+    @else if $boxs == box2 {
+        background-color: $--colorPrimary;
+        border-radius: 0 0 0 10px;
+    } 
+    @else if $boxs == box3{
+        background-color: $--colorSecundary;
+        border-radius: 0 0 10px 0;
+    }
+}

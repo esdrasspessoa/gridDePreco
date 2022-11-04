@@ -1,0 +1,15 @@
+@import 'variables';
+
+%box1 {
+    width: 700px;
+    height: 250px;
+    padding: $--internalSpacing
+}
+
+%boxs {
+    width: 350px;
+    height: 300px;
+    padding: $--internalSpacing;
+    color: #ffffff;
+}
+

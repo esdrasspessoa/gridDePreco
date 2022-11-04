@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(230, 239, 246);
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+}
+@media (min-width: 375px) and (max-width: 699px) {
+  body {
+    height: auto;
+    margin: 10px 0 10px 0;
+  }
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+li {
+  list-style: none;
+}
+
+.section .box1 {
+  width: 700px;
+  height: 250px;
+  padding: 40px;
+}
+
+.section .article .box3, .section .article .box2 {
+  width: 350px;
+  height: 300px;
+  padding: 40px;
+  color: #ffffff;
+}
+
+.section .box1 {
+  background-color: #ffffff;
+  border-radius: 10px 10px 0 0;
+}
+.section .box1 h1 {
+  margin-bottom: 20px;
+  color: #2cb3af;
+}
+.section .box1 h2 {
+  color: #bedf32;
+}
+.section .box1 p {
+  color: #6C7A89;
+  font-weight: 700;
+  line-height: 25px;
+}
+@media (max-width: 699px) {
+  .section .box1 {
+    width: 350px;
+    height: 350px;
+  }
+}
+.section .article {
+  display: flex;
+}
+.section .article .box2 {
+  background-color: #2cb3af;
+  border-radius: 0 0 0 10px;
+}
+.section .article .box2 .price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section .article .box2 .price span:first-child {
+  font-weight: 700;
+  font-size: 40px;
+}
+.section .article .box2 p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.section .article .box2 button {
+  margin-top: 20px;
+  background-color: #bedf32;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+}
+.section .article .box2 button a {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px 80px;
+}
+@media (max-width: 699px) {
+  .section .article .box2 {
+    border-radius: 0;
+  }
+}
+.section .article .box3 {
+  background-color: #4bbcbf;
+  border-radius: 0 0 10px 0;
+}
+.section .article .box3 a:hover {
+  color: #6C7A89;
+}
+@media (max-width: 699px) {
+  .section .article .box3 {
+    border-radius: 0 0 10px 10px;
+    height: 250px;
+  }
+}
+@media (max-width: 699px) {
+  .section .article {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=main.css.map */

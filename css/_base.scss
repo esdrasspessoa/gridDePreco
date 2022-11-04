@@ -1,0 +1,35 @@
+@import 'variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(230 239 246);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+
+    @media (min-width:375px) and (max-width:699px) {
+        height: auto;
+        margin: 10px 0 10px 0;
+    }
+}
+
+h2 {
+    margin-bottom: $--marginLine;
+}
+
+a {
+    text-decoration: none;
+    color: $--colorTertiary;
+}
+
+li {
+    list-style: none;
+}
